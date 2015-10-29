@@ -26,13 +26,13 @@
   
   + Combining the joinSubject, joinLabel and joinData data frames by column to get a new cleaned data frame named cleanedData.
   
-  + Naming the first two columns "subject" and "activity". The "subject" column contains integers that range from 1 to 30; the "activity" column contains six kinds of activity; the last sixty-six columns contain measurements that range from that are greater than -1 and less than 1.
+  + Naming the first two columns "subject" and "activity". The "subject" column contains integers that range from 1 to 30; the "activity" column contains six kinds of activity; the last sixty-six columns contain measurements that range from that are greater than -1 and less than 1 and they are normalized and __unitless__.
 
   + Writing the cleanedData out to "joinedAndLabeled.txt" file in current working directory.
   
   + The final tidy dataset named tidyDataset.txt contains the average of each measurement (means and standard deviations) for each activity and each subject. There are thirty subjects and six distinct activities therefore there are 30 * 6 = 180 combinations. For each combination, we calculate the mean of each measurement with the corresponding combination. There are sixty-six measures plus two columns for subject and activity for a total of sixty-eight columns.  There are 180 rows of data plus an initial header row (180 + 1 total rows)
 
-###The Variables
+###The Variables (unitless)
 <table>
 + subject_____________________________________Subject ID
 + activity_____________________________________The activity performed
